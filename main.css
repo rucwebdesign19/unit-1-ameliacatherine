@@ -9,5 +9,23 @@ h1 {
   font-size: 3.0em;
   line-height: 1.3;
   text-align: center;
-  
+
+}
+
+@media only screen and
+(min-width: 600px) {
+
+  .chapters {
+    max-width:75vw;
+
+  }
+}
+
+@media only screen And
+(min-width: 900px) {
+
+  .chapters{
+    max-width: 50vw;
+    
+  }
 }
