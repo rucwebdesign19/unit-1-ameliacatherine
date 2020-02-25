@@ -5,7 +5,7 @@
 }
 
 h1 {
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Great Vibes', "Times New Roman",serif;
   font-size: 3.0em;
   color: #332419;
   text-shadow: 3px 3px 2px #B8BBB4;
@@ -47,7 +47,7 @@ h1 {
   }
 
   .pics{
-    max-width:98%;
+    max-width:73%;
     float: left;
     padding: 5px;
 
@@ -78,7 +78,7 @@ h1 {
 }
 
 #subtitle {
- font-family: 'Amatic SC', cursive;
+ font-family: 'Amatic SC', "Times New Roman", serif;
  font-size: 4.0em;
  color: #B8BBB4;
  text-shadow: 3px 3px 2px #332419;
@@ -119,7 +119,7 @@ html * {
      border-radius: 2px;
       box-shadow: 11px 11px 7px 1px rgba(117,106,90,0.95);
       font-size: 1.7em;
-      font-family: 'Amatic SC', cursive;
+      font-family: 'Amatic SC', "Times New Roman", serif;
 }
 
 body {
@@ -190,30 +190,42 @@ a:active {
             }
 
             .pics{
-              max-width:50%;
-              float: left;
+              max-width:95%;
+              float: center;
+
+              }
+          .chapters{
+            font-size: 1.4em;
+            background-color: #BEC0BB;
+            padding: 5px;
+          }
 
             }
-        }
 
 
-        ::-webkit-scrollbar {
-          width: 10px;
-        }
+
+            ::-webkit-scrollbar {
+              width: 10px;
+            }
 
 
-        ::-webkit-scrollbar-track {
-          box-shadow: inset 0 0 5px #482A21;
-          border-radius: 10px;
-        }
+            ::-webkit-scrollbar-track {
+              box-shadow: inset 0 0 5px #482A21;
+              border-radius: 10px;
+            }
 
 
-        ::-webkit-scrollbar-thumb {
-          background: #BEC0BB;
-          border-radius: 10px;
-        }
+            ::-webkit-scrollbar-thumb {
+              background: #BEC0BB;
+              border-radius: 10px;
+            }
 
-        /* Handle on hover */
-        ::-webkit-scrollbar-thumb:hover {
-          background: #20130D;
-        }
+
+            ::-webkit-scrollbar-thumb:hover {
+              background: #20130D;
+            }
+
+            ::selection {
+              background: #482A21;
+              color: #BEC0BB;
+}
